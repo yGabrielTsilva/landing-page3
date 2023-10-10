@@ -79,9 +79,20 @@ section {
     background-color: #7785d4;
 }
 
-.seção1 {
-  background-color: white;
+.secao1 {
+  background-color: rgb(252, 252, 252);
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  width:auto;
+height: 584px; 
+align-content: center;
+display: flex;
+flex-direction: column;
+background-image: url();
 }
+
+
 
 .seção2 {
   background-color: rgb(240, 238, 238);
@@ -105,4 +116,33 @@ footer {
 .footer-content img {
     width: 80px;
     height: 60px;
+}
+
+.frase-1{
+font-size: 36px;
+color: rgb(0, 0, 0);
+display: flex;
+}
+
+.botao-1{
+   padding: 30px;
+  color:white (255, 0, 0);
+  background-color: green;
+  font-size: 30px;
+  border-radius: 32px;
+  font-weight: bold;
+  margin-top: 35px;
+  cursor: pointer;
+  
+}
+
+
+.botao-1:hover{
+background-color: rgb(85, 165, 0);
+}
+
+
+.frase-2{
+color: rgb(0, 0, 0);
+margin-top: 26px;
 }
